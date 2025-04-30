@@ -1,0 +1,25 @@
+.skills{
+    padding-top: 100px;
+    background-color: #ffffff;
+    width: calc(100vw - var(--scrollbar-width));
+    
+    &__title{
+        font-size: 50px;
+        font-weight: 900;
+        text-align: center;
+    }
+    &__content{
+    }
+    &__title{
+        margin-bottom: 50px;
+    }
+    &__list{
+        display: flex;
+        flex-wrap: wrap;
+        gap:20px;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 0 auto;
+        width: 800px;
+    }
+}

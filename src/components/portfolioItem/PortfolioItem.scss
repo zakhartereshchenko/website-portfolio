@@ -1,0 +1,40 @@
+.portfolio__item{
+    width: 450px;
+    border: 1px solid #ffffff;
+    transition: border 0.4s ease;
+    padding: 10px 10px;
+    &:hover{
+        // border: 1px solid #dbdbdb;
+        
+    }
+    
+}
+.project{
+    &__name{
+        font-weight: 700;
+        font-size: 24px;
+    }
+    &__description{
+
+    }
+    &__buttons{
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        margin-top: 20px;
+        a{
+            text-decoration: none;
+        }
+    }
+    &__list{
+        display: flex;
+        flex-direction: column;
+    }
+    &__technologies{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 5px;
+       
+    }
+}

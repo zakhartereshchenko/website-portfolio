@@ -1,0 +1,24 @@
+.portfolio{
+    padding-top: 100px;
+    background-color: #ffffff;
+    width: calc(100vw - var(--scrollbar-width));
+    &__content{
+
+    }
+    &__title{
+        font-size: 50px;
+        font-weight: 900;
+        text-align: center;
+    }
+    &__list{
+        margin-top:50px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        gap:100px;
+    }
+    
+    
+    
+    
+}

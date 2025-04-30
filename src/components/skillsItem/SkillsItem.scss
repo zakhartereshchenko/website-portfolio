@@ -1,0 +1,10 @@
+.skills__item{
+    transition: filter 0.1s ease;
+    &:hover{
+        filter: drop-shadow(0 4px 6px rgba(0, 0, 0, 0.3));
+    }
+    img{
+        width: 150px;
+        height: 150px;
+    }
+}
