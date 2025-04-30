@@ -1,31 +1,40 @@
 import React from 'react';
 import './Skills.scss';
 import SkillsItem from '../skillsItem/SkillsItem';
+import JSIcon from '/js.svg';
+import ReactIcon from '/react.svg';
+import HTMLIcon from '/html.svg';
+import CSSIcon from '/css.svg';
+import TailwindIcon from '/tailwind.svg';
+import BootstrapIcon from '/bootstrap.svg';
+import TSIcon from '/ts.svg';
+import ReduxIcon from '/redux.svg';
+import WebpackIcon from '/webpack.svg';
+import ViteIcon from '/vite.svg';
+import MySQLIcon from '/mysql.svg';
 
 const Skills = () => {
     return (
-        <>
-            <section className="skills" id="skills">
-                <div className="container">
-                    <div className="skills__content">
-                        <h2 data-aos="fade-up" className="skills__title">Skills.</h2>
-                        <ul data-aos="fade-up" className="skills__list">
-                            <SkillsItem src="js.svg" techName="JavaScript"/>
-                            <SkillsItem src="react.svg" techName="React"/>
-                            <SkillsItem src="html.svg" techName="HTML"/>
-                            <SkillsItem src="css.svg" techName="CSS"/>
-                            <SkillsItem src="tailwind.svg" techName="Tailwind"/>
-                            <SkillsItem src="bootstrap.svg" techName="Bootstrap"/>
-                            <SkillsItem src="ts.svg" techName="TypeScript"/>
-                            <SkillsItem src="redux.svg" techName="Redux"/>
-                            <SkillsItem src="webpack.svg" techName="Webpack"/>
-                            <SkillsItem src="vite.svg" techName="Vite"/>
-                            <SkillsItem src="mysql.svg" techName="MySql"/>
-                        </ul>
-                    </div>
+        <section className="skills" id="skills">
+            <div className="container">
+                <div className="skills__content">
+                    <h2 data-aos="fade-up" className="skills__title">Skills.</h2>
+                    <ul data-aos="fade-up" className="skills__list">
+                        <SkillsItem imgSrc={JSIcon} techName="JavaScript"/>
+                        <SkillsItem imgSrc={ReactIcon} techName="React"/>
+                        <SkillsItem imgSrc={HTMLIcon} techName="HTML"/>
+                        <SkillsItem imgSrc={CSSIcon} techName="CSS"/>
+                        <SkillsItem imgSrc={TailwindIcon} techName="Tailwind"/>
+                        <SkillsItem imgSrc={BootstrapIcon} techName="Bootstrap"/>
+                        <SkillsItem imgSrc={TSIcon} techName="TypeScript"/>
+                        <SkillsItem imgSrc={ReduxIcon} techName="Redux"/>
+                        <SkillsItem imgSrc={WebpackIcon} techName="Webpack"/>
+                        <SkillsItem imgSrc={ViteIcon} techName="Vite"/>
+                        <SkillsItem imgSrc={MySQLIcon} techName="MySql"/>
+                    </ul>
                 </div>
-            </section>
-        </>
+            </div>
+        </section>
     )
 }
 

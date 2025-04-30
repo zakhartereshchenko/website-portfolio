@@ -1,10 +1,11 @@
 import './Intro.scss';
 import Button from '../button/Button';
+import WarsawFootage from '/warsaw_footage.mp4';
 
 const Intro = () => {
     return (
         <section className="intro">
-            <video autoPlay="autoplay" loop src="/warsaw_footage.mp4" muted="muted" className="intro__background" ></video>
+            <video autoPlay="autoplay" loop src={WarsawFootage} muted="muted" className="intro__background" ></video>
             <div className="intro__mask"></div>
             <div data-aos="zoom-in" className="intro__content container">
                 <div className="intro__title">Hi, I'm <span className='aqua-color'>Zakhar</span></div>

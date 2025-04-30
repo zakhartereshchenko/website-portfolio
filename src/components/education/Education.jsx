@@ -1,5 +1,7 @@
 import React from 'react';
 import './Education.scss';
+import UniversityIcon from '/university.svg';
+import SchoolIcon from '/school.svg';
 
 const Education = () => {
     return (
@@ -9,7 +11,7 @@ const Education = () => {
             </div>
             <div  className="education__timeline timeline">
                 <div className="timeline__container left-container">
-                    <img src="university.svg" alt="" className="timeline__img" />   
+                    <img src={UniversityIcon} alt="" className="timeline__img" />   
                     <div className="timeline__card">
                         <div className="timeline__title">Applied informatics</div>
                         <p className="timeline__descr">The State School of Higher Education in Chelm, Poland 🇵🇱  </p>
@@ -19,7 +21,7 @@ const Education = () => {
                     </div>
                 </div>
                 <div className="timeline__container right-container">
-                    <img src="school.svg" alt="" className="timeline__img" />
+                    <img src={SchoolIcon} alt="" className="timeline__img" />
                     <div className="timeline__card">
                         <div className="timeline__descr">High School №97 in Dnipro, Ukraine 🇺🇦</div>
                         <div className="timeline__period">2015 - 2018</div>

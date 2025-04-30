@@ -27,7 +27,7 @@
             padding: 20px 30px;
             position: relative;
             border-radius: 8px;
-            background-color: rgb(70, 241, 241);
+            background-color: rgb(156, 253, 253);
         }
         
         &__title{
@@ -78,7 +78,7 @@
             z-index: 1;
             border-top: 15px solid transparent;
             border-bottom: 15px solid transparent;
-            border-left: 15px solid rgb(70, 241, 241);
+            border-left: 15px solid rgb(156, 253, 253);
             right: -15px
         }
         &__right-container-arrow{
@@ -89,7 +89,7 @@
             z-index: 1;
             border-top: 15px solid transparent;
             border-bottom: 15px solid transparent;
-            border-right: 15px solid rgb(70, 241, 241);
+            border-right: 15px solid rgb(156, 253, 253);
             left: -15px;
         }
     }

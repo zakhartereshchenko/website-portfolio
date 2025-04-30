@@ -1,6 +1,10 @@
 import React from 'react';
 import './AboutMe.scss';
 import Button from '../button/Button';
+import Photo from "/photo-1.jpg";
+import TechnologistSVG from "/technologist.svg";
+import DevelopmentSVG from "/development.svg";
+import KnowledgeSVG from "/knowledge.svg";
 
 const AboutMe = () => {
     return (
@@ -8,12 +12,12 @@ const AboutMe = () => {
             <div className="container">
                 <div data-aos="fade-up" className="about-me__title">Overview.</div>
                 <div className="about-me__content ">
-                    <img data-aos="fade-right" className="about-me__photo" src="./photo-1.jpg" alt="photo" />
+                    <img data-aos="fade-right" className="about-me__photo" src={Photo} alt="photo" />
                     <div data-aos="fade-left" className="about-me__section">
                         <ul className="about-me__list">
-                            <li className="about-me__item"><img src="technologist.svg" alt="technologist" /><p>I'm a frontend developer with a strong drive to grow into a full-stack developer.</p></li>
-                            <li className="about-me__item"><img src="development.svg" alt="development" /><p>I love building clean, responsive interfaces and turning tricky design ideas into smooth, usable websites that just feel right.</p></li>
-                            <li className="about-me__item"><img src="knowledge.svg" alt="knowledge" /><p>I'm always curious and constantly learning.</p></li>
+                            <li className="about-me__item"><img src={TechnologistSVG} alt="technologist" /><p>I'm a frontend developer with a strong drive to grow into a full-stack developer.</p></li>
+                            <li className="about-me__item"><img src={DevelopmentSVG} alt="development" /><p>I love building clean, responsive interfaces and turning tricky design ideas into smooth, usable websites that just feel right.</p></li>
+                            <li className="about-me__item"><img src={KnowledgeSVG} alt="knowledge" /><p>I'm always curious and constantly learning.</p></li>
                         </ul>
                         <div className="about-me__links">
                             <a href="CV.pdf" download>
