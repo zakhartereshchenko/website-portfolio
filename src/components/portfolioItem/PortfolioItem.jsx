@@ -3,10 +3,15 @@ import Button from '../button/Button'
 import './PortfolioItem.scss'
 
 
-const PortfolioItem = ({ photoSrc, name, description, technologies, link}) => {
+const 
+PortfolioItem = ({ photoSrc, name, description, technologies, link}) => {
     return (
         <div data-aos="fade-right" className="portfolio__item project">
-            <img src={photoSrc} alt="photo of project" />
+            <div className="project__photo">
+                <img src={photoSrc} alt="photo of project" />
+                <div className="overlay"></div>
+            </div>
+            
             <div className='project__name'>{name}</div>
             <p className='project__description'>{description}</p>
             
