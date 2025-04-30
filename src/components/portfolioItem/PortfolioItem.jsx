@@ -6,7 +6,7 @@ import './PortfolioItem.scss'
 const 
 PortfolioItem = ({ photoSrc, name, description, technologies, link}) => {
     return (
-        <div data-aos="fade-right" className="portfolio__item project">
+        <div data-aos="fade-up" className="portfolio__item project">
             <div className="project__photo">
                 <img src={photoSrc} alt="photo of project" />
                 <div className="overlay"></div>
