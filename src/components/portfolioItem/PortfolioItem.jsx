@@ -17,7 +17,10 @@ const PortfolioItem = ({ photoSrc, name, description, technologies, link}) => {
                 }
             </ul>
             <div className="project__buttons">
-                <Button text="View(unavailable)" color="#444"/>
+                <a href={link} target="_blank">
+                    <Button text="View(unavailable)" color="#444"/>
+                </a>
+                
                 <a href={link} target="_blank">
                     <Button text="GitHub"/>
                 </a>
