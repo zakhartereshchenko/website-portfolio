@@ -20,7 +20,7 @@ const AboutMe = () => {
                             <li className="about-me__item"><img src={KnowledgeSVG} alt="knowledge" /><p>I'm always curious and constantly learning.</p></li>
                         </ul>
                         <div className="about-me__links">
-                            <a href="CV.pdf" download>
+                            <a href="cv-.pdf" download>
                                 <Button text="Resume" />
                             </a>
                             <a href="https://github.com/zakhartereshchenko" target="_blank">
